@@ -1,0 +1,11 @@
+version: "3.3"
+services:
+  location_server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: on-failure    
+    expose:
+      - "9028"
+    ports:
+      - "9028:9028"
