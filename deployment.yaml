@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: resume
-        image: resume:latest
+        image: 905418417758.dkr.ecr.us-east-1.amazonaws.com/resume:latest
         ports:
         - containerPort: 9028
