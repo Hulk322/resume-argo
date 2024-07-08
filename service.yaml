@@ -6,7 +6,7 @@ metadata:
 spec:
   selector:
     app: resume
-  type: LoadBalancer
+  type: NodePort
   ports:
     - port: 9028
       targetPort: 9028
